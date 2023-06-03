@@ -6,5 +6,25 @@ body {
   background-color: #e2edff;
 }
 #projects {
-  background-color: #e2edff;
+  background-color: #ffffff;
 }
+
+.card {
+  height: 100%;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-body .btn-primary {
+  margin: 0 auto;
+}
+#skills {
+  background-color: #e2edff;
