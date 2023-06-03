@@ -23,8 +23,9 @@ body {
   justify-content: space-between;
 }
 
-.card-body .btn-primary {
+.btn-primary {
   margin: 0 auto;
 }
 #skills {
   background-color: #e2edff;
+}
