@@ -2,7 +2,7 @@ body {
   min-height: 2000px;
 }
 .jumbotron {
-  padding-top: 2rem;
+  padding-top: 8rem;
   background-color: #e2edff;
 }
 #projects {
@@ -28,4 +28,10 @@ body {
 }
 #skills {
   background-color: #e2edff;
+}
+#contact {
+  background-color: #e2edff;
+}
+section {
+  padding-top: 5rem;
 }
