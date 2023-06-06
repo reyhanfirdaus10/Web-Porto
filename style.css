@@ -35,3 +35,10 @@ body {
 section {
   padding-top: 5rem;
 }
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
