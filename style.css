@@ -5,22 +5,30 @@ body {
   padding-top: 8rem;
   background-color: #e2edff;
 }
+
 #projects {
   background-color: #ffffff;
 }
 
 .card {
+  background-color: #e2edff;
   height: 100%;
 }
 
 .card-img-top {
-  object-fit: cover;
-  height: 200px;
+  object-fit: unset;
+  height: 300px;
 }
 .card-body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.card-title {
+  text-align: center;
+}
+.card-text {
+  text-align: center;
 }
 
 .btn-primary {

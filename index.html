@@ -127,121 +127,106 @@
     <!-- Skills -->
     <section id="skills">
       <style>
-        .card {
+        #skills .row {
+          justify-content: center;
+        }
+
+        #skills .card {
           background-color: transparent;
           border: none;
-        }
-
-        .card-img-top {
-          object-fit: cover;
-          height: 150px;
-        }
-
-        .card-title {
+          padding: 20px;
           text-align: center;
         }
-      </style>
 
-      <div class="row justify-content-center">
+        #skills .card-img-top {
+          object-fit: contain;
+          max-height: 100px;
+          margin: 0 auto;
+        }
+
+        #skills .card-title {
+          margin-top: 10px;
+        }
+      </style>
+      <div class="container">
         <div class="row text-center mb-4">
           <div class="col">
-            <h2>My Skill</h2>
+            <h2>My Skills</h2>
           </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row">
           <!-- Card 1 -->
           <div class="col-6 col-md-3">
-            <div class="card text-center">
-              <img src="img/skills/php.png" alt="php" />
-              <div class="card-body">
-                <h5 class="card-title">PHP</h5>
-              </div>
+            <div class="card">
+              <img src="img/skills/php.png" alt="php" class="card-img-top" />
+              <h5 class="card-title">PHP</h5>
             </div>
           </div>
           <!-- Card 2 -->
           <div class="col-6 col-md-3">
-            <div class="card text-center mb-4">
-              <img src="img/skills/javascript.png" alt="javascript" />
-              <div class="card-body">
-                <h5 class="card-title">Javascript</h5>
-              </div>
+            <div class="card">
+              <img src="img/skills/javascript.png" alt="javascript" class="card-img-top" />
+              <h5 class="card-title">Javascript</h5>
             </div>
           </div>
           <!-- Card 3 -->
           <div class="col-6 col-md-3">
-            <div class="card text-center mb-4">
-              <img src="img/skills/python.png" alt="python" />
-              <div class="card-body">
-                <h5 class="card-title">Python</h5>
-              </div>
+            <div class="card">
+              <img src="img/skills/python.png" alt="python" class="card-img-top" />
+              <h5 class="card-title">Python</h5>
             </div>
           </div>
           <!-- Card 4 -->
           <div class="col-6 col-md-3">
-            <div class="card text-center mb-4">
-              <img src="img/skills/mysql.png" alt="mysql" />
-              <div class="card-body">
-                <h5 class="card-title">MySQL</h5>
-              </div>
+            <div class="card">
+              <img src="img/skills/mysql.png" alt="mysql" class="card-img-top" />
+              <h5 class="card-title">MySQL</h5>
             </div>
           </div>
           <!-- Card 5 -->
           <div class="col-6 col-md-3">
-            <div class="card text-center mb-4">
-              <img src="img/skills/laravel.png" alt="laravel" />
-              <div class="card-body">
-                <h5 class="card-title">Laravel</h5>
-              </div>
+            <div class="card">
+              <img src="img/skills/laravel.png" alt="laravel" class="card-img-top" />
+              <h5 class="card-title">Laravel</h5>
             </div>
           </div>
           <!-- Card 6 -->
           <div class="col-6 col-md-3">
-            <div class="card text-center mb-4">
-              <img src="img/skills/codeigniter.png" alt="codeigniter" />
-              <div class="card-body">
-                <h5 class="card-title">CodeIgniter</h5>
-              </div>
+            <div class="card">
+              <img src="img/skills/codeigniter.png" alt="codeigniter" class="card-img-top" />
+              <h5 class="card-title">CodeIgniter</h5>
             </div>
           </div>
           <!-- Card 7 -->
           <div class="col-6 col-md-3">
-            <div class="card text-center mb-4 m">
-              <img src="img/skills/figma.png" alt="streamlit" />
-              <div class="card-body">
-                <h5 class="card-title">Figma</h5>
-              </div>
+            <div class="card">
+              <img src="img/skills/figma.png" alt="figma" class="card-img-top" />
+              <h5 class="card-title">Figma</h5>
             </div>
           </div>
           <!-- Card 8 -->
           <div class="col-6 col-md-3">
-            <div class="card text-center mb-4">
-              <img src="img/skills/pr.png" alt="pr" />
-              <div class="card-body">
-                <h5 class="card-title">Adobe Premiere Pro</h5>
-              </div>
+            <div class="card">
+              <img src="img/skills/pr.png" alt="pr" class="card-img-top" />
+              <h5 class="card-title">Adobe Premiere Pro</h5>
             </div>
           </div>
           <!-- Card 9 -->
           <div class="col-6 col-md-3">
-            <div class="card text-center mb-4">
-              <img src="img/skills/ai.png" alt="ai" />
-              <div class="card-body">
-                <h5 class="card-title">Adobe Illustrator</h5>
-              </div>
+            <div class="card">
+              <img src="img/skills/ai.png" alt="ai" class="card-img-top" />
+              <h5 class="card-title">Adobe Illustrator</h5>
             </div>
           </div>
           <!-- Card 10 -->
           <div class="col-6 col-md-3">
-            <div class="card text-center mb-4">
-              <img src="img/skills/ps.png" alt="ps" />
-              <div class="card-body">
-                <h5 class="card-title">Adobe Photoshop</h5>
-              </div>
+            <div class="card">
+              <img src="img/skills/ps.png" alt="ps" class="card-img-top" />
+              <h5 class="card-title">Adobe Photoshop</h5>
             </div>
           </div>
         </div>
       </div>
-
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -261,7 +246,7 @@
             <h2>My Projects</h2>
           </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
           <div class="col-md-4">
             <div class="card mb-4">
               <img src="img/projects/web1.jpg" class="card-img-top" alt="web1" />
@@ -284,7 +269,7 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4">
-              <img src="img/projects/beanbag.jpg" class="card-img-top" alt="benabag" />
+              <img src="img/projects/beanbag.jpg" class="card-img-top" alt="beanbag" />
               <div class="card-body">
                 <h5 class="card-title">Website Beanbag Bengkulu</h5>
                 <p class="card-text">a website built using PHP technology with the CodeIgniter framework and MySQL database.</p>
@@ -292,26 +277,26 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-md-4">
+          <div class="col-md-4">
             <div class="card mb-4">
-              <img src="img/projects/beanbag.jpg" class="card-img-top" alt="benabag" />
+              <img src="img/projects/web4.png" class="card-img-top" alt="web4" />
               <div class="card-body">
-                <h5 class="card-title">Website Beanbag Bengkulu</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, deserunt.</p>
-                <a href="#" class="btn btn-primary">Visit Website</a>
+                <h5 class="card-title">Aplikasi Ferrisia Detector</h5>
+                <p class="card-text">I have developed a web-based "Ferrisia Detector" application using computer vision and deep learning YOLOv5s, utilizing Python programming language to accurately identify Ferrisia species.</p>
+                <a href="https://reyhanfirdaus10-ferrisiadetector-home-amv9a1.streamlit.app/" class="btn btn-primary">Visit Website</a>
               </div>
             </div>
-          </div> -->
-          <!-- <div class="col-md-4">
+          </div>
+          <div class="col-md-4">
             <div class="card mb-4">
-              <img src="img/projects/beanbag.jpg" class="card-img-top" alt="benabag" />
+              <img src="img/projects/web3.jpg" class="card-img-top" alt="web3" />
               <div class="card-body">
-                <h5 class="card-title">Website Beanbag Bengkulu</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, deserunt.</p>
-                <a href="#" class="btn btn-primary">Visit Website</a>
+                <h5 class="card-title">Website of the Economics Doctoral Study Program UNIB</h5>
+                <p class="card-text">A website built using Wordpress technology with the elementor that takes into account user needs.</p>
+                <a href="https://pdie.feb.unib.ac.id/" class="btn btn-primary">Visit Website</a>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
